@@ -16,15 +16,16 @@
   <body>
     <main class="container mx-auto p-7">
       <header class="mb-10 py-10">
-        <div class="banner md:flex justify-between">
+        <div class="banner md:flex md:py-20 justify-between">
           <div class="banner-content">
-            <h1 class="text-7xl border-l-2 max-w-[628px] mb-5">
+            <h1 class="text-7xl font-semibold max-w-[628px] mb-5">
               It's good <br />
               tea time at The <br />
               Tea House
             </h1>
             <p class="text-lg mb-5">
               Tea and Botanical Solutions Supplier Givebr Optimum Satisfaction
+              <br />
               To Your Taste Buds.
             </p>
             <button
@@ -319,5 +320,82 @@
         </div>
       </section>
     </main>
+
+    <footer class="bg-red-100 py-10 md:py-32 px-7">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <div>
+            <img
+              class="w-[64px] text-gray-700"
+              src="./images/bg_cup.png"
+              alt=""
+            />
+          </div>
+          <div class="flex items-center gap-10">
+            <p class="text-lg text-slate-800">Ready to get strated?</p>
+            <button
+              class="text-lg py-2 rounded-lg px-7 bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+
+        <!-- footer menu  -->
+        <div class="mt-5 flex flex-col md:flex-row justify-between">
+          <div class="md:w-3/5">
+            <h5 class="text-2xl font-bold mb-5 text-gray-800">Quick Links</h5>
+            <ul class="list-none text-lg">
+              <li><a href="">Home</a></li>
+              <li><a href="">About US</a></li>
+              <li><a href="">Insurance</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="md:w-3/5">
+            <h5 class="text-2xl font-bold mb-5 text-gray-800">Our Services</h5>
+            <ul class="list-none text-lg">
+              <li><a href="">Life Insurance</a></li>
+              <li><a href="">Car Insurance</a></li>
+              <li><a href="">Health Insurance</a></li>
+              <li><a href="">House Insurance</a></li>
+            </ul>
+          </div>
+          <div class="md:w-3/5">
+            <h5 class="text-2xl font-bold mb-5 text-gray-800">Help</h5>
+            <ul class="list-none text-lg">
+              <li><a href="">Help</a></li>
+              <li><a href="">Contact US</a></li>
+            </ul>
+          </div>
+          <div class="md:w-4/5">
+            <h5 class="text-3xl font-bold mb-5 text-gray-800">
+              Subscribe to our <br />
+              newsletter
+            </h5>
+            <div class="flex gap-5">
+              <input
+                class="bg-transparent w-[260px] text-sm text-gray-800 h-10 border-b-2 border-gray-500"
+                type="text"
+                placeholder="Enter address"
+              />
+              <button
+                class="w-5 h-5 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-full p-5 text-white flex items-center justify-center"
+              >
+                <i class="fa-solid fa-greater-than"></i>
+              </button>
+            </div>
+            <div class="socials flex gap-5 text-gray-600 mt-10 text-3xl">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </footer>
   </body>
 </html>
