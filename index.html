@@ -3,10 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tea House</title>
   </head>
   <body>
-    <main></main>
+    <main>
+      <header class="container mx-auto p-7">
+        <div class="banner md:flex justify-between">
+          <div class="banner-content">
+            <h1 class="text-7xl border-l-2 max-w-[628px] mb-5">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="text-lg mb-5">
+              Tea and Botanical Solutions Supplier Givebr Optimum Satisfaction
+              To Your Taste Buds.
+            </p>
+            <button
+              class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-lg font-bold text-white py-3 px-7 rounded-lg"
+            >
+              Explore More
+              <i class="-rotate-45 ml-2 fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="banner-img relative">
+            <img class="w-[655px]" src="./images/banner.png" alt="" />
+            <div
+              class="banner-card absolute left-14 bottom-8 p-4 rounded-lg bg-white flex items-center w-[255px]"
+            >
+              <div class="ml-2">
+                <i class="text-4xl text-amber-500 fa-solid fa-star"></i>
+              </div>
+              <div class="ml-2">
+                <span class="text-2xl font-bold text-gray-800">5.00</span>
+                <br />
+                <span class="text-sm font-semibold text-gray-700"
+                  >Trust Pilot Ratings</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
   </body>
 </html>
